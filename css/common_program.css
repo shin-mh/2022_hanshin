@@ -1,0 +1,150 @@
+/* (주)한신정보기술 2019.09.06 안희정 */
+
+/* 자율점검온라인등록 */
+.self_inspection{padding-top:15px;}
+.self_inspection .tit{text-align:center; margin-bottom:49px; padding-bottom:30px; background-position: left bottom; background-image:url('/site/health/images/contents/self_inspection_line.png'); background-repeat:repeat-x; box-sizing:border-box;}
+.self_inspection .tit h3{position:relative; padding-top:41px; font-size:30px; line-height:32px; letter-spacing:-0.02em; color:#000; }
+.self_inspection .tit h3:before{display:inline-block; position:absolute; left:calc(50% - 15px); top:0; width:31px; height:26px; background-repeat:no-repeat; background-image:url('/site/health/images/contents/self_inspection_icon.png');}
+.self_inspection .tit h3 span{color:#0169b5;}
+.self_inspection .tit h3 br{display:none;}
+.self_inspection .tit p{font-size:16px; line-height:25px; letter-spacing:-0.02em; color:#555;}
+@media all and (max-width:640px) {
+    .self_inspection .tit h3 br{display:block;}
+    .self_inspection .tit p{margin-right:20px;}
+    .self_inspection .tit p br{display:none;}
+}
+
+.self_inspection .inspection_click{margin-bottom:50px; padding-top:56px; padding-bottom:13px; background-color:#f7fafd; text-align:center;}
+.self_inspection .inspection_click h3{display:inline-block; position:relative; padding-right:40px; font-size:20px; line-height:25px; color:#000;}
+.self_inspection .inspection_click h3:before{display:inline-block; position:absolute; right:0; top:calc(50% - 34px); width:33px; height:48px; background-repeat:no-repeat; background-image:url('/site/health/images/contents/self_click_icon.png');}
+.self_inspection .inspection_click .sect_click{padding:19px 20px; font-size:0;}
+.self_inspection .inspection_click .sect_click li{display:inline-block; width:calc(33.3% - 18px); vertical-align:top;}
+.self_inspection .inspection_click .sect_click li:nth-child(2){margin-right:9px; margin-left:9px;}
+.self_inspection .inspection_click .sect_click li:nth-child(5){margin-right:9px; margin-left:9px;}
+.self_inspection .inspection_click .sect_click li:nth-child(n+4){margin-top:15px;}
+.self_inspection .inspection_click .sect_click li .click_btn{display:table; width:100%; height:125px; border:1px solid #dcdcdc; border-radius:10px; background-color:#fff; }
+.self_inspection .inspection_click .sect_click li .click_btn a{display:table; width:100%; height:100%; text-decoration:none;}
+.self_inspection .inspection_click .sect_click li .click_btn a span{display:table-cell; font-size:16px; line-height:25px; color:#555; text-align:center; vertical-align:middle;}
+.self_inspection .inspection_click .sect_click li .click_btn:hover{background-color:#0068b5;}
+.self_inspection .inspection_click .sect_click li .click_btn:hover a span{color:#fff;}
+@media all and (max-width:640px) {
+    .self_inspection .inspection_click .sect_click li{display:inline-block; width:100%; margin-top:15px; vertical-align:top;}
+    .self_inspection .inspection_click .sect_click li:nth-child(2){margin-right:0; margin-left:0;}
+    .self_inspection .inspection_click .sect_click li:nth-child(5){margin-right:0; margin-left:0;}
+}
+
+
+.self_inspection .inspection_download{margin-bottom:50px; padding-top:56px; padding-bottom:13px; background-color:#f7fafd; text-align:center;}
+.self_inspection .inspection_download h3{display:inline-block; position:relative; padding-right:65px; font-size:20px; line-height:25px; color:#000;}
+.self_inspection .inspection_download h3:before{display:inline-block; position:absolute; right:0; top:calc(50% - 24px); width:52px; height:38px; background-repeat:no-repeat; background-image:url('/site/health/images/contents/self_download_icon.png');}
+.self_inspection .inspection_download .sect_click{padding:16px 19px; font-size:0;}
+.self_inspection .inspection_download .sect_click li{display:inline-block; width:calc(33.3% - 22px); vertical-align:top;}
+.self_inspection .inspection_download .sect_click li:nth-child(2){margin-right:11px; margin-left:11px;}
+.self_inspection .inspection_download .sect_click li:nth-child(5){margin-right:11px; margin-left:11px;}
+.self_inspection .inspection_download .sect_click li:nth-child(8){margin-right:11px; margin-left:11px;}
+.self_inspection .inspection_download .sect_click li:nth-child(11){margin-right:11px; margin-left:11px;}
+.self_inspection .inspection_download .sect_click li:nth-child(n+4){margin-top:13px;}
+.self_inspection .inspection_download .sect_click li .click_btn{display:table; position:relative; width:calc(100% - 29px); padding:10px 29px 12px 0; border:1px solid #000; background-color:#fff; }
+.self_inspection .inspection_download .sect_click li .click_btn:before{display:inline-block; position:absolute; right:17px; top:calc(50% - 9px); width:12px; height:15px; background-image:url('/site/main/images/sub/template_sprite.png');background-position:left -136px;}
+.self_inspection .inspection_download .sect_click li .click_btn a{display:table-cell; padding-left:15px; font-size:16px; line-height:25px; color:#555; text-align:left; vertical-align:middle;}
+@media all and (max-width:1200px) {
+    .self_inspection .inspection_download .sect_click li{width:calc(50% - 11px);}
+    .self_inspection .inspection_download .sect_click li:nth-child(n+3){margin-top:13px;}
+    .self_inspection .inspection_download .sect_click li:nth-child(2){margin-right:0;}
+    .self_inspection .inspection_download .sect_click li:nth-child(5){margin-right:0; margin-left:0;}
+    .self_inspection .inspection_download .sect_click li:nth-child(8){margin-right:0;}
+    .self_inspection .inspection_download .sect_click li:nth-child(11){margin-right:0; margin-left:0;}
+    .self_inspection .inspection_download .sect_click li:nth-child(2n){margin-left:11px;}
+}
+
+@media all and (max-width:640px) {
+    .self_inspection .inspection_download .sect_click li{width:100%; margin-top:13px;}
+    .self_inspection .inspection_download .sect_click li:nth-child(2n){margin-left:0;}
+}
+
+
+/* 자율점검온라인등록 페이지 게시판 및 버튼 커스터마이징  */
+
+.self_inspection .p-wrap table.p-table tbody a.start{display:inline-block; width:87px; height:33px; background-color:#626262; text-align:center;}
+.self_inspection .p-wrap table.p-table tbody a.start.on{background-color:#3b5893;}
+.self_inspection .p-wrap table.p-table tbody a.start span{font-size:16px; line-height:30px; color:#fff; }
+
+.self_inspection .p-wrap table.survey{margin-bottom:40px;}
+.self_inspection .p-wrap table.survey thead th:nth-child(2){border-left:1px solid #d9d9d9;}
+.self_inspection .p-wrap table.survey tbody th{text-align:left;}
+.self_inspection .p-wrap table.survey tbody td{border-left:1px solid #d9d9d9;}
+
+.self_inspection label input.p-input{height:25px;}
+.self_inspection .p-form-group.drug {white-space: unset;}
+.self_inspection .drug_two{border-top:1px solid #d9d9d9;}
+
+.self_inspection .p-upload ul.attach li{float:left;}
+
+@media all and (max-width:765px) {
+    .self_inspection .mobile_margin{margin-top: 10px;}
+    .self_inspection .p-wrap table.survey tbody td{border-left:none;}
+}
+
+
+.self_inspection .p-form-checkbox__input:checked~.p-form-checkbox__label:before{border-color:#0488cf; background-color:#0488cf;}
+
+.self_inspection .p-form-radio__input:checked~.p-form-radio__label:after{top: 2px;left: 1px; width: 20px; height: 20px; background-color:#0488cf;background-image:url('/common/images/program/p-icon.png'); background-position: -28px -185px;}
+
+.self_inspection .p-input{height:35px; line-height:30px;}
+
+.self_inspection .personal h3{padding-bottom:26px; font-size:20px; line-height:30px; font-weight:600; letter-spacing:-0.02em; color:#040404;}
+.self_inspection .personal .textbox{padding:10px; border:1px solid #c6c6c6; height:229px; overflow-y:auto; box-sizing:border-box;}
+.self_inspection .personal .essential_tip{margin-bottom:8px; border-radius:2px; background-color:#d6e7f3; color:#0068b5;}
+.self_inspection .personal .essential_tip .icon_precaution{display:inline-block; width:26px; height:26px; border-radius:2px; background-color:#0068b5; background-image:url('/site/health/images/common/precaution_icon.png'); background-repeat:no-repeat; background-position:center center; font-size:0; line-height:0; vertical-align:top;}
+.self_inspection .icon_star{display:inline-block; width:11px; height:19px !important; background-image:url('/site/health/images/common/icon_star.png'); background-repeat:no-repeat; background-position:center; font-size:0; line-height:0; vertical-align:top;}
+
+.self_inspection .inspection h3{padding-bottom:26px; font-size:20px; line-height:30px; font-weight:600; letter-spacing:-0.02em; color:#040404;}
+
+
+.p2-button{margin-left:8px; padding:10px 50px 12px; border:1px solid #0488cf; color:#0488cf;  box-sizing:border-box; transition:all 0.25s linear;}
+.p2-button span{font-size:16px; line-height:25px; letter-spacing:-0.02em; color:#0488cf;}
+.p2-button, .p2-button:link, .p2-button:visited {color:#0488cf;}
+.p2-button:hover{background-color:#0488cf; color:#fff;}
+.p2-button:hover span{color:#fff;}
+
+/* 공통 사이트맵 2019-10-07 김의향 */
+#sitemap .site_map_col{}
+#sitemap .site_map_col .sitemap_box{position:relative; padding-left:300px; margin-bottom:70px; }
+#sitemap .site_map_col .sitemap_box .tit_mn .inner h2{position:absolute; top:0; left:0; width:230px; margin:0; border:10px solid #0068b5;}
+#sitemap .site_map_col .sitemap_box .tit_mn .inner h2 a{display:block; padding:18px 0 21px; font-size:20px; line-height:30px; color:#0068b5; text-align:center; vertical-align:middle;}
+#sitemap .site_map_col .sitemap_box > ul{font-size:0; line-height:0;}
+#sitemap .site_map_col .sitemap_box > ul > li{display:inline-block; position:relative; width:calc(33.33% - 7px); margin-right:10px; margin-bottom:7px; vertical-align:top;}
+#sitemap .site_map_col .sitemap_box > ul > li:nth-child(3n){margin-right:0;}
+#sitemap .site_map_col .sitemap_box > ul > li > .dep2_box{position:relative; border:none; background-repeat:repeat-x, repeat-y, repeat-y, repeat-x; background-position:left bottom, right top, left top, left top; background-image: url(/site/main/images/common/dotbox_x.png), url(/site/main/images/common/dotbox_y.png), url(/site/main/images/common/dotbox_y.png), url(/site/main/images/common/dotbox_x.png); background-color: #fff; }
+#sitemap .site_map_col .sitemap_box > ul > li > .dep2_box > a{display:block; position:relative; margin:1px; padding:9px 5px; font-size:16px; line-height:30px; color:#464646; text-align:center; z-index:1;}
+#sitemap .site_map_col .sitemap_box > ul > li > a:hover{color:#0068b5;}
+#sitemap .site_map_col .sitemap_box > ul > li > ul{position:relative; padding-bottom:16px; z-index:1;}
+#sitemap .site_map_col .sitemap_box > ul > li > ul > li.dep3{padding-top:16px; }
+#sitemap .site_map_col .sitemap_box > ul > li > ul > li.dep3 > a{display:block; padding-left:29px; font-size:16px; line-height:30px; color:#464646;}
+#sitemap .site_map_col .sitemap_box > ul > li > ul > li.dep3 > a:hover{color:#0068b5;}
+#sitemap .site_map_col .sitemap_box > ul > li > ul > li.dep3 > ul{position:relative; padding-bottom:14px;}
+#sitemap .site_map_col .sitemap_box > ul > li > ul > li.dep3 > ul:before{display:block; position:absolute; bottom:0; left:0; width:100%; height:1px; background-color:#464646;}
+#sitemap .site_map_col .sitemap_box > ul > li > ul > li.dep3 > ul > li.dep4{position:relative; padding-left:48px; }
+
+#sitemap .site_map_col .sitemap_box > ul > li > ul > li.dep3 > ul > li.dep4 a{position:relative; font-size:16px; line-height:30px; color:#464646;}
+#sitemap .site_map_col .sitemap_box > ul > li > ul > li.dep3 > ul > li.dep4 a:before{display:block; position:absolute; top:9px; left:-9px; width:6px; height:1px; background-color:#464646;}
+
+@media screen and (max-width:1200px) {
+    #sitemap .site_map_col .sitemap_box{padding-left:250px;}
+    #sitemap .site_map_col .sitemap_box .tit_mn .inner h2{width:200px;}
+}
+@media screen and (max-width:800px) {
+    #sitemap .site_map_col .sitemap_box{padding-left:0; margin-bottom:40px;}
+    #sitemap .site_map_col .sitemap_box .tit_mn .inner h2{position:relative; top:auto; left:auto; margin-bottom:30px; }
+    #sitemap .site_map_col .sitemap_box > ul > li.dep2{width:calc(33.33% - 14px); margin-right:20px;}
+    #sitemap .site_map_col .sitemap_box > ul > li:nth-child(3n){margin-right:0;}
+    #sitemap .site_map_col .sitemap_box > ul > li.dep2 > .dep2_box > a{padding:9px 5%;}
+    #sitemap .site_map_col .sitemap_box > ul > li.dep2 > ul > li.dep3 > a{padding-left:5%; padding-right:5%;}
+    #sitemap .site_map_col .sitemap_box > ul > li.dep2 > ul > li.dep3 > ul > li.dep4{padding-right:5%;}
+}
+@media screen and (max-width:480px) {
+    #sitemap .site_map_col .sitemap_box{margin-bottom:30px;}
+    #sitemap .site_map_col .sitemap_box .tit_mn .inner h2{width:calc(100% - 20px);}
+    #sitemap .site_map_col .sitemap_box > ul > li.dep2{width:100%; margin-right:0; margin-bottom:5%;}
+    #sitemap .site_map_col .sitemap_box > ul > li.dep2 > ul > li.dep3 > a{padding-left:29px;}
+}

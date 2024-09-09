@@ -1,0 +1,7 @@
+/* 메일수신거부완료 페이지 /anyang/mail_reject.jsp */
+.unsubscribe_wrap{width: 700px;margin: 150px auto;font-family: NanumGothicBold;overflow: hidden;}
+.email_logo{display: inline-block;margin-left: 10px;}
+.email_inner{border: 3px solid #67a7ec;margin-top: 10px;}
+.email_inner .tit{margin:0; text-align: center;font-size: 60px;line-height: normal;background: url(/common/images/program/email_title.png) center/cover no-repeat;padding: 45px 0;color: #fff;font-family: NanumGothicBold;}
+.email_inner .txt{padding: 45px 95px 45px 195px;background: url(/common/images/program/email_text.png) 63px 50px no-repeat;}
+.email_inner .txt p{font-size: 26px;color: #333;text-align: center;line-height: 30px;font-family: NanumGothicBold;}

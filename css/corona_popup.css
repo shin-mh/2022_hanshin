@@ -1,0 +1,85 @@
+.corona_popup{position:relative; font-family:'GmarketSans'; background:#dbe7f7; letter-spacing:-0.03em;}
+.corona_popup .corona_info{padding:20px 0 0 20px; width:100%; font-weight:bold; text-align:left; box-sizing:border-box;}
+.corona_popup .inner{overflow:hidden;position: relative}
+.corona_popup .inner:before {display: block;position:absolute;right:0;bottom:0;width:379px;height:129px;background:url(/common/images/title_icon5.png) no-repeat;}
+.corona_popup .inner .inner_link{padding:22px 0 43px;cursor:pointer;display:inline-block;width: 823px;vertical-align:bottom;}
+.corona_popup a.popup_close{position:absolute;top: 10px;right: 0;width:29px;height:29px;background:url(/common/images/popup_close.png) no-repeat;}
+.corona_popup h1{color:#0a2549; font-size:43px;line-height:45px;vertical-align:middle;}
+.corona_popup h1:before{display:inline-block;background:url(/common/images/title_icon4.png) no-repeat;margin-right:23px;width:37px;height:52px;vertical-align: -5px;}
+.corona_popup h1 b {color:#ea3d56}
+.corona_popup .time{display:block;margin-top:-30px;text-align: right}
+.corona_popup .time span {display:inline-block;padding: 0 10px;font-size:16px;line-height: 28px;color:#000;background-color:#fff;}
+
+.corona_popup .status_box{max-width: 823px;width:100%;position:relative;overflow: hidden;margin-top: 18px;}
+.corona_popup .status_box > div{float:left; font-size:20px; }
+.corona_popup .status_box > div .title{display:block;width:100%;height:45px;margin-bottom:5px;border-radius:20px;line-height: 45px;color:#fff;text-align: center;background: #5089cd;}
+.corona_popup .status_box > div ul{background:#fff;overflow:hidden;border-radius: 18px;color:#000;}
+.corona_popup .status_box > div li{position:relative; float:left; height:115px; text-align: center;}
+.corona_popup .status_box > div li:before{display:block; content:''; position:absolute; top:calc(50% - 40px); right:0; width:1px; height:80px; background-color:#232323;}
+.corona_popup .status_box > div li:last-child:before{display: none;}
+.corona_popup .status_box .left_box{width: 340px;margin-right: 13px;}
+.corona_popup .status_box .right_box{width: 470px;}
+.corona_popup .status_box .left_box li{width:calc(100%/3);}
+.corona_popup .status_box .right_box li{width:calc(100%/4);}
+.corona_popup .status_box .right_box .title {background-color:#225982}
+.corona_popup .status_box > div li > span{position:relative; display: block; font-size:18px; padding-bottom: 6px; padding-top:16px;}
+.corona_popup .status_box > div li > span:before{display:block; content:''; position:absolute; bottom:-0; left:calc(50% - 10px); width:20px; height:1px; background-color:#232323;}
+.corona_popup .status_box > div li div{font-weight: bold; height:68px;}
+.corona_popup .status_box > div li div p{display:inline-block;vertical-align: middle;font-size: 21px;line-height: 24px;}
+.corona_popup .status_box > div li div p.blue {color:#2d64a6}
+.corona_popup .status_box > div li div p.red {color:#d7292d}
+.corona_popup .status_box > div li div:before{display: inline-block; content:''; width:1px; height:100%; vertical-align: middle;}
+
+.corona_popup .corona_link{width:290px;display: inline-block;margin-left: 38px;margin-top:39px;vertical-align: top;}
+.corona_popup .corona_link li{position:relative;width:100%;height:38px;box-sizing: border-box;line-height:38px;margin-bottom:5px;background: #1d7ec7;}
+.corona_popup .corona_link li:last-child{margin-bottom:0;}
+.corona_popup .corona_link li a{display:block;position:relative;padding-left:45px;color: #fff;font-size: 16px;letter-spacing:-0.05em}
+.corona_popup .corona_link li a:before {display: block;position:absolute;left:9px;top:6px;width:27px;height:27px;background: url(/common/images/popup_sprite.png) no-repeat}
+.corona_popup .corona_link li:nth-child(1) a:before {background-position: -20px -18px; }
+.corona_popup .corona_link li:nth-child(2) a:before {background-position: -20px -61px; }
+.corona_popup .corona_link li:nth-child(3) a:before {background-position: -20px -104px; }
+
+@media all and (max-width:1200px){
+    .corona_popup a.popup_close{right:5px;}
+    .corona_popup .inner .inner_link{width:100%;padding:15px 0 43px;}
+    .corona_popup .time{margin-top: 10px;/* text-align:left; */}
+    .corona_popup .status_box {max-width:650px;margin-top: 8px;}
+    .corona_popup .status_box .left_box{display: block;width:100%;margin-bottom:10px;}
+    .corona_popup .status_box .right_box {display:block;width:100%;}
+    .corona_popup .status_box > div{font-size:18px;}
+    .corona_popup .status_box > div .title{height:35px; line-height: 35px;}
+    .corona_popup .status_box > div li{height:95px;}
+    .corona_popup .status_box > div li > span{font-size:16px; padding-top:8px; padding-bottom:4px;}
+    .corona_popup .status_box > div li div{height:55px;}
+    .corona_popup .corona_link{position: absolute; top: 84px; right: 0;}
+    .corona_popup .corona_link li{height:40px; line-height: 40px; margin-bottom:7px;}
+    .corona_popup .corona_link li span{width:40px;}
+    .corona_popup .corona_link li a{font-size: 16px;}
+}
+@media all and (max-width:1000px){
+    .corona_popup .inner:before {right: -30px;background-size:contain;}
+    .corona_popup .status_box {max-width:calc(100% - 320px);}
+    .corona_popup a.popup_close{top:35px;right:5px;}
+    .corona_popup h1{font-size:28px;line-height: 30px;}
+    .corona_popup .corona_link {top:94px}
+}
+@media all and (max-width:700px){
+    .corona_popup .inner {padding-bottom: 40px;}
+    .corona_popup .inner:before {display:none}
+    .corona_popup .inner .inner_link{padding-bottom:0;}
+    .corona_popup h1{font-size:24px;}
+    .corona_popup .time span {font-size:14px;}
+    .corona_popup .status_box {max-width:100%;}
+    .corona_popup .status_box > div{font-size:16px;}
+    .corona_popup .status_box > div li > span{font-size:14px;}
+    .corona_popup .status_box > div li div{font-weight: normal;}
+    .corona_popup .status_box > div li div p {font-size:16px;line-height:20px;}
+    .corona_popup .corona_link{display: block;position: static;width:300px;padding-top:10px;margin: 0 auto;}
+    .corona_popup .corona_link li a {font-size:15px}
+}
+@media all and (max-width: 480px){
+    .corona_popup .inner .inner_link{padding-top: 32px;}
+    .corona_popup a.popup_close{right:17px; top:16px;}
+    .corona_popup h1:before{margin-right:15px;}
+    .corona_popup .corona_link {width:100%}
+}
